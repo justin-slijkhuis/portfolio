@@ -1,0 +1,814 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/25.0.2 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="25.0.2">
+  <diagram name="Pagina-1" id="EIF-Ke3vj5UOE4bII9F_">
+    <mxGraphModel dx="1659" dy="957" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-1" value="Architecture 1.0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=25;" parent="1" vertex="1">
+          <mxGeometry x="314" y="10" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.006;entryY=0.081;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="vQJH2k5jHzZeBWDmTKOx-19" target="vQJH2k5jHzZeBWDmTKOx-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-18" value="justinslijkhuis.nl/books" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="vQJH2k5jHzZeBWDmTKOx-17" vertex="1" connectable="0">
+          <mxGeometry x="-0.1626" relative="1" as="geometry">
+            <mxPoint x="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-19" value="Viewer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="49" y="463" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-23" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="259" y="433" width="245" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-24" value="Qwik Website" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="vQJH2k5jHzZeBWDmTKOx-23" vertex="1">
+          <mxGeometry width="245" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-25" value="Client-side" style="rounded=0;whiteSpace=wrap;html=1;" parent="vQJH2k5jHzZeBWDmTKOx-23" vertex="1">
+          <mxGeometry y="30" width="125" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-26" value="Server-side" style="rounded=0;whiteSpace=wrap;html=1;" parent="vQJH2k5jHzZeBWDmTKOx-23" vertex="1">
+          <mxGeometry x="125" y="30" width="120" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.998;exitY=0.083;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" parent="1" source="vQJH2k5jHzZeBWDmTKOx-26" target="vQJH2k5jHzZeBWDmTKOx-31" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-30" value="SELECT * FROM Books&lt;br&gt;ORDER BY ranking" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="vQJH2k5jHzZeBWDmTKOx-27" vertex="1" connectable="0">
+          <mxGeometry x="-0.2027" y="2" relative="1" as="geometry">
+            <mxPoint x="-4" y="18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-28" value="Performs SELECT statements only" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="520" y="364.5" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-29" style="edgeStyle=isometricEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.004;exitY=0.077;exitDx=0;exitDy=0;entryX=0.13;entryY=0.77;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=none;endFill=0;exitPerimeter=0;" parent="1" source="vQJH2k5jHzZeBWDmTKOx-26" target="vQJH2k5jHzZeBWDmTKOx-28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-31" value="PostgreSQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="705" y="598" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.016;entryY=0.918;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="vQJH2k5jHzZeBWDmTKOx-34" target="vQJH2k5jHzZeBWDmTKOx-25" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="259.0000000000002" y="793" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-33" value="justinslijkhuis.nl/cms&lt;br&gt;with access token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="vQJH2k5jHzZeBWDmTKOx-32" vertex="1" connectable="0">
+          <mxGeometry x="-0.1626" relative="1" as="geometry">
+            <mxPoint x="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-34" value="Justin (CMS)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="49" y="763" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.989;exitY=0.917;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" parent="1" source="vQJH2k5jHzZeBWDmTKOx-26" target="vQJH2k5jHzZeBWDmTKOx-31" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="504" y="793" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-45" value="CALL update_book_ranking(5, 2)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="vQJH2k5jHzZeBWDmTKOx-42" vertex="1" connectable="0">
+          <mxGeometry x="-0.0951" relative="1" as="geometry">
+            <mxPoint x="6" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-44" style="edgeStyle=isometricEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.004;entryY=0.915;entryDx=0;entryDy=0;dashed=1;elbow=vertical;endArrow=none;endFill=0;entryPerimeter=0;" parent="1" source="vQJH2k5jHzZeBWDmTKOx-43" target="vQJH2k5jHzZeBWDmTKOx-26" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="504" y="808" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-43" value="Performs SELECT, INSERT, UPDATE and DELETE statements" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;spacingLeft=20;spacingRight=20;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="500" y="824.5" width="205" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-47" value="This architecture uses a single website for both the portfolio and the CMS. Anyone can go to all justinslijkhuis.nl/** URLs except for justinslijkhuis.nl/cms/** which requires an access token. The access token can be achieved using justinslijkhuis.nl/cms/login which you wil navigate to by default if you aren&#39;t logged in. Logging in returns an access token together with a refresh token which will both quickly invalidate. All database operations are done on the server-side of the website. The portfolio part will only execute SELECT statements. The CMS part will execute all CRUD statements if the given access token is valid.&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Advantages&lt;/b&gt;&lt;/div&gt;&lt;div&gt;+ All UI components are in the same website making it more easy to build and work with the visual posts section.&lt;br&gt;+ Makes deployment easier since I would only need to host a website and a database.&lt;/div&gt;&lt;div&gt;+ Project can be completed way faster compared to implementing something like a REST API as well.&lt;br&gt;+ Only having a single website and a single database makes this architecture very cheap.&lt;br&gt;+ Allows SQL queries to be written specificaly for a page making the query as optimized as possible.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Disadvantages&lt;/b&gt;&lt;/div&gt;&lt;div&gt;- Handling security on the server-side of the website based on the URL could bring some challenges that puts the security at risk.&lt;/div&gt;&lt;div&gt;- Issues on the CMS part of the website could break the entire website which will result in the Portfolio being offline.&lt;/div&gt;&lt;div&gt;- The database connection details are closer to the client-side when compared to a REST API which could put those secrets at risk.&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="50" width="750" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-48" value="Architecture 2.0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=25;" parent="1" vertex="1">
+          <mxGeometry x="1140" y="11.5" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-49" value="PostgreSQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="1506" y="824.5" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.015;entryY=0.081;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="vQJH2k5jHzZeBWDmTKOx-52" target="vQJH2k5jHzZeBWDmTKOx-55" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-51" value="justinslijkhuis.nl/books" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="vQJH2k5jHzZeBWDmTKOx-50" vertex="1" connectable="0">
+          <mxGeometry x="-0.1626" relative="1" as="geometry">
+            <mxPoint x="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-52" value="Viewer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="875" y="464.5" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-53" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="1050" y="434.5" width="245" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-54" value="Qwik Website" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="vQJH2k5jHzZeBWDmTKOx-53" vertex="1">
+          <mxGeometry width="245" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-55" value="Client-side" style="rounded=0;whiteSpace=wrap;html=1;" parent="vQJH2k5jHzZeBWDmTKOx-53" vertex="1">
+          <mxGeometry y="30" width="125" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-56" value="Server-side" style="rounded=0;whiteSpace=wrap;html=1;" parent="vQJH2k5jHzZeBWDmTKOx-53" vertex="1">
+          <mxGeometry x="125" y="30" width="120" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="vQJH2k5jHzZeBWDmTKOx-74" target="vQJH2k5jHzZeBWDmTKOx-49" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1510" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-58" value="SELECT *&lt;br&gt;FROM Books&lt;br&gt;ORDER BY ranking" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="vQJH2k5jHzZeBWDmTKOx-57" vertex="1" connectable="0">
+          <mxGeometry x="-0.2027" y="2" relative="1" as="geometry">
+            <mxPoint x="-2" y="-29" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-241" value="CALL update_book_ranking(5, 2)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="vQJH2k5jHzZeBWDmTKOx-57" vertex="1" connectable="0">
+          <mxGeometry x="0.3333" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-242" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;OR&lt;/font&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="vQJH2k5jHzZeBWDmTKOx-57" vertex="1" connectable="0">
+          <mxGeometry x="-0.0276" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-59" value="Performs GET&lt;br&gt;requests only" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1351" y="348" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-60" style="edgeStyle=isometricEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.081;exitDx=0;exitDy=0;entryX=0.13;entryY=0.77;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=none;endFill=0;exitPerimeter=0;" parent="1" source="vQJH2k5jHzZeBWDmTKOx-56" target="vQJH2k5jHzZeBWDmTKOx-59" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.004;entryY=0.915;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="vQJH2k5jHzZeBWDmTKOx-64" target="vQJH2k5jHzZeBWDmTKOx-55" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1070" y="794" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-63" value="justinslijkhuis.nl/cms&lt;br&gt;with access token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="vQJH2k5jHzZeBWDmTKOx-62" vertex="1" connectable="0">
+          <mxGeometry x="-0.1626" relative="1" as="geometry">
+            <mxPoint x="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-64" value="Justin (CMS)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="875" y="764.5" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-71" style="edgeStyle=isometricEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.4;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.999;entryY=0.918;entryDx=0;entryDy=0;dashed=1;elbow=vertical;endArrow=none;endFill=0;entryPerimeter=0;" parent="1" source="vQJH2k5jHzZeBWDmTKOx-72" target="vQJH2k5jHzZeBWDmTKOx-56" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1255" y="824.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-72" value="Performs GET, POST, PATCH and DELETE requests" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;spacingLeft=20;spacingRight=20;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="1252" y="850" width="220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-73" value="This architecture uses a single website for both the portfolio and the CMS. The website uses a REST API for data operations. Anyone can go to all justinslijkhuis.nl/** URLs and send a GET request to all justinslijkhuis.nl/api/** endpoints. The only limitation is that an access token is required for requests to justinslijkhuis.nl/api/cms/** and that justinslijkhuis.nl/cms/** also requires an active access token to be able to retrieve the pages.. The access token can be achieved using justinslijkhuis.nl/cms/login which you wil navigate to by default if you aren&#39;t logged in. The login page uses a login endpoint to validate the passwords and generate an access token together with a refresh token which will. both quickly invalidate. The API requests can be done both on the client-side and server-side of the website.&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Advantages&lt;/b&gt;&lt;/div&gt;&lt;div&gt;+ All UI components are in the same website making it more easy to build and work with the visual posts section.&lt;/div&gt;&lt;div&gt;+ Security can be really good since a REST API (framework) allows for better security and validation in an easier manner.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Disadvantages&lt;/b&gt;&lt;br&gt;- Deployment is a harder since there is now also a REST API to release and manage.&lt;/div&gt;&lt;div&gt;- Takes more time building the portfolio and CMS since a REST API needs to be created from scratch.&lt;br&gt;- There is still the challenge of validating the access token based on the cms/** route to retrieve the pages.&lt;/div&gt;&lt;div&gt;- Data can be gathered more easily outside of the website unless server-side token is used or domain validation is added.&lt;br&gt;- Increases latency and costs by adding an extra HTTP request to loading pages.&lt;/div&gt;&lt;div&gt;- The entire website will not work anymore if the REST API crashes since it is very data dependant.&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="866" y="51.5" width="750" height="268.5" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-74" value="Spring Boot REST API" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1466" y="589.5" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.99;exitY=0.082;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="vQJH2k5jHzZeBWDmTKOx-56" target="vQJH2k5jHzZeBWDmTKOx-74" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-76" value="GET&lt;div&gt;justinslijkhuis.nl/api/books&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="vQJH2k5jHzZeBWDmTKOx-75" vertex="1" connectable="0">
+          <mxGeometry x="-0.2055" y="2" relative="1" as="geometry">
+            <mxPoint x="11" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.996;exitY=0.917;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="vQJH2k5jHzZeBWDmTKOx-56" target="vQJH2k5jHzZeBWDmTKOx-74" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1315" y="794.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-79" value="PATCH&lt;br&gt;justinslijkhuis.nl/api/books/5&lt;br&gt;{ranking: 2}" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="vQJH2k5jHzZeBWDmTKOx-78" vertex="1" connectable="0">
+          <mxGeometry x="-0.1417" y="1" relative="1" as="geometry">
+            <mxPoint x="14" y="-23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-80" value="Architecture 3.0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=25;" parent="1" vertex="1">
+          <mxGeometry x="1967" y="10" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-81" value="PostgreSQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="2362" y="448" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="vQJH2k5jHzZeBWDmTKOx-84" target="vQJH2k5jHzZeBWDmTKOx-87" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-83" value="justinslijkhuis.nl/books" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="vQJH2k5jHzZeBWDmTKOx-82" vertex="1" connectable="0">
+          <mxGeometry x="-0.1626" relative="1" as="geometry">
+            <mxPoint x="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-84" value="Viewer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="1702" y="463" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-85" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="1912" y="433" width="245" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-86" value="Portfolio Qwik Website" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="vQJH2k5jHzZeBWDmTKOx-85" vertex="1">
+          <mxGeometry width="245" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-87" value="Client-side" style="rounded=0;whiteSpace=wrap;html=1;" parent="vQJH2k5jHzZeBWDmTKOx-85" vertex="1">
+          <mxGeometry y="30" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-88" value="Server-side" style="rounded=0;whiteSpace=wrap;html=1;" parent="vQJH2k5jHzZeBWDmTKOx-85" vertex="1">
+          <mxGeometry x="125" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="vQJH2k5jHzZeBWDmTKOx-88" target="vQJH2k5jHzZeBWDmTKOx-81" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-90" value="SELECT * FROM Books&lt;br&gt;ORDER BY ranking" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="vQJH2k5jHzZeBWDmTKOx-89" vertex="1" connectable="0">
+          <mxGeometry x="-0.2027" y="2" relative="1" as="geometry">
+            <mxPoint x="9" y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-91" value="Performs SELECT statements only" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2027" y="568" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-92" style="edgeStyle=isometricEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.4;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=none;endFill=0;" parent="1" source="vQJH2k5jHzZeBWDmTKOx-88" target="vQJH2k5jHzZeBWDmTKOx-91" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-93" value="PostgreSQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="2362" y="748" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="vQJH2k5jHzZeBWDmTKOx-96" target="vQJH2k5jHzZeBWDmTKOx-99" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-95" value="cms.justinslijkhuis.nl&lt;br&gt;with access token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="vQJH2k5jHzZeBWDmTKOx-94" vertex="1" connectable="0">
+          <mxGeometry x="-0.1626" relative="1" as="geometry">
+            <mxPoint x="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-96" value="Justin (CMS)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="1702" y="763" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-97" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="1913" y="733" width="245" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-98" value="CMS Qwik Website" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="vQJH2k5jHzZeBWDmTKOx-97" vertex="1">
+          <mxGeometry width="245" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-99" value="Client-side" style="rounded=0;whiteSpace=wrap;html=1;" parent="vQJH2k5jHzZeBWDmTKOx-97" vertex="1">
+          <mxGeometry y="30" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-100" value="Server-side" style="rounded=0;whiteSpace=wrap;html=1;" parent="vQJH2k5jHzZeBWDmTKOx-97" vertex="1">
+          <mxGeometry x="125" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="vQJH2k5jHzZeBWDmTKOx-100" target="vQJH2k5jHzZeBWDmTKOx-93" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-102" value="CALL update_book_ranking(5, 2)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="vQJH2k5jHzZeBWDmTKOx-101" vertex="1" connectable="0">
+          <mxGeometry x="-0.0951" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-103" style="edgeStyle=isometricEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.4;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;elbow=vertical;endArrow=none;endFill=0;" parent="1" source="vQJH2k5jHzZeBWDmTKOx-104" target="vQJH2k5jHzZeBWDmTKOx-100" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-104" value="Performs SELECT, INSERT, UPDATE and DELETE statements" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;spacingLeft=20;spacingRight=20;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="1994.5" y="863" width="205" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-105" value="This architecture uses one website for the portfolio and one website for the CMS splitting their responsibilities. Anyone can go to justinslijkhuis.nl/** which is the portfolio website. If someone goes to the CMS website located at cms.justinslijkhuis.nl/** , then they are required to have an access token. The access token can be achieved using cms.justinslijkhuis.nl/login which you wil navigate to by default if you aren&#39;t logged in. Logging in returns an access token together with a refresh token which will both quickly invalidate. All database operations are done on the server-side of the website. The portfolio website will only execute SELECT statements. The CMS website will execute all CRUD statements if the given access token is valid.&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Advantages&lt;/b&gt;&lt;/div&gt;&lt;div&gt;+ Security can be applied on the entire CMS website so there is no need for route based security.&lt;br&gt;+ Issues with the CMS website do not bother the portfolio website allowing it to continue operating if the CMS crashes.&lt;/div&gt;&lt;div&gt;+ The portfolio website can be scaled separately if that is something that might be needed in the future.&lt;/div&gt;&lt;div&gt;&lt;div&gt;+ Allows SQL queries to be written specificaly for a page making the query as optimized as possible.&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Disadvantages&lt;/b&gt;&lt;/div&gt;&lt;div&gt;- Handling security on the server-side of the website based on the URL could bring some challenges that puts the security at risk.&lt;br&gt;- UI components aren&#39;t in the same website which makes it hard managing the visual posts section of the website.&lt;br&gt;&lt;div&gt;- Deployment is a bit harder compared to architecture 1.0 since there is now two websites to release and manage.&lt;br&gt;- The database connection details are closer to the client-side when compared to a REST API which could put those secrets at risk.&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1693" y="50" width="750" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-107" value="Architecture 3.1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=25;" parent="1" vertex="1">
+          <mxGeometry x="1967" y="1180" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-108" value="PostgreSQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="2362" y="1618" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="vQJH2k5jHzZeBWDmTKOx-111" target="vQJH2k5jHzZeBWDmTKOx-114" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-110" value="justinslijkhuis.nl/books" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="vQJH2k5jHzZeBWDmTKOx-109" vertex="1" connectable="0">
+          <mxGeometry x="-0.1626" relative="1" as="geometry">
+            <mxPoint x="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-111" value="Viewer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="1702" y="1633" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-112" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="1912" y="1603" width="245" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-113" value="Portfolio Qwik Website" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="vQJH2k5jHzZeBWDmTKOx-112" vertex="1">
+          <mxGeometry width="245" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-114" value="Client-side" style="rounded=0;whiteSpace=wrap;html=1;" parent="vQJH2k5jHzZeBWDmTKOx-112" vertex="1">
+          <mxGeometry y="30" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-115" value="Server-side" style="rounded=0;whiteSpace=wrap;html=1;" parent="vQJH2k5jHzZeBWDmTKOx-112" vertex="1">
+          <mxGeometry x="125" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="vQJH2k5jHzZeBWDmTKOx-115" target="vQJH2k5jHzZeBWDmTKOx-108" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-117" value="SELECT * FROM Books&lt;br&gt;ORDER BY ranking" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="vQJH2k5jHzZeBWDmTKOx-116" vertex="1" connectable="0">
+          <mxGeometry x="-0.2027" y="2" relative="1" as="geometry">
+            <mxPoint x="9" y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-118" value="Performs SELECT statements only" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2027" y="1738" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-119" style="edgeStyle=isometricEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.4;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=none;endFill=0;" parent="1" source="vQJH2k5jHzZeBWDmTKOx-115" target="vQJH2k5jHzZeBWDmTKOx-118" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-120" value="PostgreSQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="2362" y="1918" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="vQJH2k5jHzZeBWDmTKOx-123" target="vQJH2k5jHzZeBWDmTKOx-126" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-122" value="cms.justinslijkhuis.nl&lt;br&gt;with access token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="vQJH2k5jHzZeBWDmTKOx-121" vertex="1" connectable="0">
+          <mxGeometry x="-0.1626" relative="1" as="geometry">
+            <mxPoint x="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-123" value="Justin (CMS)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="1702" y="1933" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-124" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="1913" y="1903" width="245" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-125" value="CMS Qwik Website" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="vQJH2k5jHzZeBWDmTKOx-124" vertex="1">
+          <mxGeometry width="245" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-126" value="Client-side" style="rounded=0;whiteSpace=wrap;html=1;" parent="vQJH2k5jHzZeBWDmTKOx-124" vertex="1">
+          <mxGeometry y="30" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-127" value="Server-side" style="rounded=0;whiteSpace=wrap;html=1;" parent="vQJH2k5jHzZeBWDmTKOx-124" vertex="1">
+          <mxGeometry x="125" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="vQJH2k5jHzZeBWDmTKOx-127" target="vQJH2k5jHzZeBWDmTKOx-120" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-129" value="CALL update_book_ranking(5, 2)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="vQJH2k5jHzZeBWDmTKOx-128" vertex="1" connectable="0">
+          <mxGeometry x="-0.0951" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-130" style="edgeStyle=isometricEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.4;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;elbow=vertical;endArrow=none;endFill=0;" parent="1" source="vQJH2k5jHzZeBWDmTKOx-131" target="vQJH2k5jHzZeBWDmTKOx-127" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-131" value="Performs SELECT, INSERT, UPDATE and DELETE statements" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;spacingLeft=20;spacingRight=20;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="1994.5" y="2033" width="205" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-132" value="Same architecture as 3.0, but now there is a component library which each website retrieves from GitHub packages of my repository. This allows both websites to have the same components which can be used for the Posts editor.&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Advantages compared to 3.0&lt;/b&gt;&lt;/div&gt;&lt;div&gt;+ Components are shared meaning we won&#39;t have to copy paste anything.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Disadvantages compared to 3.0&lt;/b&gt;&lt;/div&gt;&lt;div&gt;- Requires each website to update their dependencies which could cause the Portfolio posts to be different than the CMS posts.&lt;/div&gt;&lt;div&gt;- The library needs to be published and gathered which adds more complexity to the development and release proces.&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1693" y="1220" width="750" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-133" value="Component library package" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="1934.5" y="1758" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="vQJH2k5jHzZeBWDmTKOx-114" target="vQJH2k5jHzZeBWDmTKOx-133" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-198" value="Retrieve components package" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="vQJH2k5jHzZeBWDmTKOx-134" vertex="1" connectable="0">
+          <mxGeometry x="-0.156" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="vQJH2k5jHzZeBWDmTKOx-125" target="vQJH2k5jHzZeBWDmTKOx-133" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-197" value="Retrieve components package" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="vQJH2k5jHzZeBWDmTKOx-135" vertex="1" connectable="0">
+          <mxGeometry x="-0.0092" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-136" value="Architecture 3.2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=25;" parent="1" vertex="1">
+          <mxGeometry x="1966" y="2350" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-137" value="PostgreSQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="2361" y="2788" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-138" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="vQJH2k5jHzZeBWDmTKOx-140" target="vQJH2k5jHzZeBWDmTKOx-143" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-139" value="justinslijkhuis.nl/books" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="vQJH2k5jHzZeBWDmTKOx-138" vertex="1" connectable="0">
+          <mxGeometry x="-0.1626" relative="1" as="geometry">
+            <mxPoint x="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-140" value="Viewer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="1701" y="2803" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-141" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="1911" y="2773" width="245" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-142" value="Portfolio Qwik Website" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="vQJH2k5jHzZeBWDmTKOx-141" vertex="1">
+          <mxGeometry width="245" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-143" value="Client-side" style="rounded=0;whiteSpace=wrap;html=1;" parent="vQJH2k5jHzZeBWDmTKOx-141" vertex="1">
+          <mxGeometry y="30" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-144" value="Server-side" style="rounded=0;whiteSpace=wrap;html=1;" parent="vQJH2k5jHzZeBWDmTKOx-141" vertex="1">
+          <mxGeometry x="125" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="vQJH2k5jHzZeBWDmTKOx-144" target="vQJH2k5jHzZeBWDmTKOx-137" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-146" value="SELECT * FROM Books&lt;br&gt;ORDER BY ranking" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="vQJH2k5jHzZeBWDmTKOx-145" vertex="1" connectable="0">
+          <mxGeometry x="-0.2027" y="2" relative="1" as="geometry">
+            <mxPoint x="9" y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-147" value="Performs SELECT statements only" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2033.5" y="2908" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-148" style="edgeStyle=isometricEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.4;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=none;endFill=0;" parent="1" source="vQJH2k5jHzZeBWDmTKOx-144" target="vQJH2k5jHzZeBWDmTKOx-147" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-149" value="PostgreSQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="2361" y="3088" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-150" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="vQJH2k5jHzZeBWDmTKOx-152" target="vQJH2k5jHzZeBWDmTKOx-155" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-151" value="cms.justinslijkhuis.nl&lt;br&gt;with access token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="vQJH2k5jHzZeBWDmTKOx-150" vertex="1" connectable="0">
+          <mxGeometry x="-0.1626" relative="1" as="geometry">
+            <mxPoint x="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-152" value="Justin (CMS)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="1701" y="3103" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-153" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="1912" y="3073" width="245" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-154" value="CMS Qwik Website" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="vQJH2k5jHzZeBWDmTKOx-153" vertex="1">
+          <mxGeometry width="245" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-155" value="Client-side" style="rounded=0;whiteSpace=wrap;html=1;" parent="vQJH2k5jHzZeBWDmTKOx-153" vertex="1">
+          <mxGeometry y="30" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-156" value="Server-side" style="rounded=0;whiteSpace=wrap;html=1;" parent="vQJH2k5jHzZeBWDmTKOx-153" vertex="1">
+          <mxGeometry x="125" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="vQJH2k5jHzZeBWDmTKOx-156" target="vQJH2k5jHzZeBWDmTKOx-149" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-158" value="CALL update_book_ranking(5, 2)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="vQJH2k5jHzZeBWDmTKOx-157" vertex="1" connectable="0">
+          <mxGeometry x="-0.0951" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-159" style="edgeStyle=isometricEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.4;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;elbow=vertical;endArrow=none;endFill=0;" parent="1" source="vQJH2k5jHzZeBWDmTKOx-160" target="vQJH2k5jHzZeBWDmTKOx-156" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-160" value="Performs SELECT, INSERT, UPDATE and DELETE statements" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;spacingLeft=20;spacingRight=20;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="1993.5" y="3203" width="205" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-161" value="Improved variant of architecture 3.1 which introduces a new website for the components. The components will be retrieved by both websites using module federation. This allows both websites to have the same components at all times meaning no inconsistencies.&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Advantages compared to 3.1&lt;/b&gt;&lt;/div&gt;&lt;div&gt;+ The websites don&#39;t need to update dependencies meaning it is always up to date causing no inconsistencies between posts.&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Disadvantages compared to 3.1&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- Adds another website that needs to be deployed which makes the release proces more complex.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- Both the Portfolio and CMS website will fail if the component website is offline.&lt;br&gt;&lt;/span&gt;- Another container needs to be active with the components for both websites to work which increases development complexity a bit.&lt;/div&gt;&lt;div&gt;- Adds the complexity of working with module federation.&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1692" y="2390" width="750" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-163" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="vQJH2k5jHzZeBWDmTKOx-143" target="vQJH2k5jHzZeBWDmTKOx-165" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1973.5" y="2928" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-196" value="Retrieve components" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="vQJH2k5jHzZeBWDmTKOx-163" vertex="1" connectable="0">
+          <mxGeometry x="-0.139" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-164" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="vQJH2k5jHzZeBWDmTKOx-154" target="vQJH2k5jHzZeBWDmTKOx-165" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1973.5" y="3008" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-195" value="Retrieve components" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="vQJH2k5jHzZeBWDmTKOx-164" vertex="1" connectable="0">
+          <mxGeometry x="0.0235" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-165" value="Component library" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1913.5" y="2938" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-166" value="Architecture 3.3" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=25;" parent="1" vertex="1">
+          <mxGeometry x="1965" y="3520" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-167" value="PostgreSQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="2360" y="3958" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-168" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="vQJH2k5jHzZeBWDmTKOx-170" target="vQJH2k5jHzZeBWDmTKOx-173" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-169" value="justinslijkhuis.nl/books" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="vQJH2k5jHzZeBWDmTKOx-168" vertex="1" connectable="0">
+          <mxGeometry x="-0.1626" relative="1" as="geometry">
+            <mxPoint x="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-170" value="Viewer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="1700" y="3973" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-171" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="1910" y="3943" width="245" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-172" value="Portfolio Qwik Website" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="vQJH2k5jHzZeBWDmTKOx-171" vertex="1">
+          <mxGeometry width="245" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-173" value="Client-side" style="rounded=0;whiteSpace=wrap;html=1;" parent="vQJH2k5jHzZeBWDmTKOx-171" vertex="1">
+          <mxGeometry y="30" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-174" value="Server-side" style="rounded=0;whiteSpace=wrap;html=1;" parent="vQJH2k5jHzZeBWDmTKOx-171" vertex="1">
+          <mxGeometry x="125" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-175" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="vQJH2k5jHzZeBWDmTKOx-174" target="vQJH2k5jHzZeBWDmTKOx-167" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-176" value="SELECT * FROM Books&lt;br&gt;ORDER BY ranking" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="vQJH2k5jHzZeBWDmTKOx-175" vertex="1" connectable="0">
+          <mxGeometry x="-0.2027" y="2" relative="1" as="geometry">
+            <mxPoint x="9" y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-177" value="Performs SELECT statements only" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2032.5" y="4078" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-178" style="edgeStyle=isometricEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.4;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=none;endFill=0;" parent="1" source="vQJH2k5jHzZeBWDmTKOx-174" target="vQJH2k5jHzZeBWDmTKOx-177" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-179" value="PostgreSQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="2360" y="4258" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-180" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="vQJH2k5jHzZeBWDmTKOx-182" target="vQJH2k5jHzZeBWDmTKOx-185" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-181" value="cms.justinslijkhuis.nl&lt;br&gt;with access token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="vQJH2k5jHzZeBWDmTKOx-180" vertex="1" connectable="0">
+          <mxGeometry x="-0.1626" relative="1" as="geometry">
+            <mxPoint x="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-182" value="Justin (CMS)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="1700" y="4273" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-183" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="1911" y="4243" width="245" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-184" value="CMS Qwik Website" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="vQJH2k5jHzZeBWDmTKOx-183" vertex="1">
+          <mxGeometry width="245" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-185" value="Client-side" style="rounded=0;whiteSpace=wrap;html=1;" parent="vQJH2k5jHzZeBWDmTKOx-183" vertex="1">
+          <mxGeometry y="30" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-186" value="Server-side" style="rounded=0;whiteSpace=wrap;html=1;" parent="vQJH2k5jHzZeBWDmTKOx-183" vertex="1">
+          <mxGeometry x="125" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-187" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="vQJH2k5jHzZeBWDmTKOx-186" target="vQJH2k5jHzZeBWDmTKOx-179" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-188" value="CALL update_book_ranking(5, 2)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="vQJH2k5jHzZeBWDmTKOx-187" vertex="1" connectable="0">
+          <mxGeometry x="-0.0951" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-189" style="edgeStyle=isometricEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.4;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;elbow=vertical;endArrow=none;endFill=0;" parent="1" source="vQJH2k5jHzZeBWDmTKOx-190" target="vQJH2k5jHzZeBWDmTKOx-186" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-190" value="Performs SELECT, INSERT, UPDATE and DELETE statements" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;spacingLeft=20;spacingRight=20;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="1992.5" y="4373" width="205" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-191" value="Improved variant of architecture 3.2 which moves the components to the Portfolio website. The CMS website will retrieve the components using module federation. This allows both websites to have the same components at all times meaning no inconsistencies while also making sure the Portfolio website always works. It also decreases complexity for development and releases since it doesn&#39;t require an extra container.&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Advantages compared to 3.2&lt;/b&gt;&lt;/div&gt;&lt;div&gt;+ The websites don&#39;t need to update dependencies meaning it is always up to date causing no inconsistencies between posts.&lt;br&gt;+ Doesn&#39;t require an extra container for components which decreases both development and deployment complexity&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Disadvantages compared to 3.2&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- Post part of the CMS doesn&#39;t work if the components can&#39;t be retrieved from the Portfolio website, but that is not that big of an issue.&lt;br&gt;&lt;/span&gt;- Adds the complexity of working with module federation.&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1691" y="3560" width="750" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-193" value="Retrieve components" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="vQJH2k5jHzZeBWDmTKOx-184" target="vQJH2k5jHzZeBWDmTKOx-173" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1972.5" y="4168" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-199" value="Architecture 2.1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=25;" parent="1" vertex="1">
+          <mxGeometry x="1132" y="1180" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-200" value="PostgreSQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="1498" y="2095" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-201" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.027;entryY=0.086;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="vQJH2k5jHzZeBWDmTKOx-203" target="vQJH2k5jHzZeBWDmTKOx-206" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-202" value="justinslijkhuis.nl/books" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="vQJH2k5jHzZeBWDmTKOx-201" vertex="1" connectable="0">
+          <mxGeometry x="-0.1626" relative="1" as="geometry">
+            <mxPoint x="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-203" value="Viewer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="867" y="1633" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-204" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="1034" y="1603" width="245" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-205" value="Qwik Website" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="vQJH2k5jHzZeBWDmTKOx-204" vertex="1">
+          <mxGeometry width="245" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-206" value="Client-side" style="rounded=0;whiteSpace=wrap;html=1;" parent="vQJH2k5jHzZeBWDmTKOx-204" vertex="1">
+          <mxGeometry y="30" width="125" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-207" value="Server-side" style="rounded=0;whiteSpace=wrap;html=1;" parent="vQJH2k5jHzZeBWDmTKOx-204" vertex="1">
+          <mxGeometry x="125" y="30" width="120" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-208" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="vQJH2k5jHzZeBWDmTKOx-225" target="vQJH2k5jHzZeBWDmTKOx-200" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1502" y="1768.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-209" value="SELECT name, ranking, content&lt;br&gt;FROM Books&lt;br&gt;ORDER BY ranking" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="vQJH2k5jHzZeBWDmTKOx-208" vertex="1" connectable="0">
+          <mxGeometry x="-0.2027" y="2" relative="1" as="geometry">
+            <mxPoint x="-2" y="-63" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-243" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;OR&lt;/font&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="vQJH2k5jHzZeBWDmTKOx-208" vertex="1" connectable="0">
+          <mxGeometry x="-0.138" relative="1" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-245" value="UPDATE Books&lt;br&gt;SET ranking = ranking + 1&lt;br&gt;WHERE ranking &amp;gt;= 2 AND ranking &amp;lt; 20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="vQJH2k5jHzZeBWDmTKOx-208" vertex="1" connectable="0">
+          <mxGeometry x="0.1789" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-246" value="UPDATE Books&lt;br&gt;SET ranking = 2&lt;br&gt;WHERE book_id = 5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="vQJH2k5jHzZeBWDmTKOx-208" vertex="1" connectable="0">
+          <mxGeometry x="0.6343" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-210" value="Performs queries&amp;nbsp;only" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1332" y="1519.5" width="183" height="83.5" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-211" style="edgeStyle=isometricEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.086;exitDx=0;exitDy=0;entryX=0.13;entryY=0.77;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=none;endFill=0;exitPerimeter=0;" parent="1" source="vQJH2k5jHzZeBWDmTKOx-207" target="vQJH2k5jHzZeBWDmTKOx-210" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-213" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.009;entryY=0.919;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="vQJH2k5jHzZeBWDmTKOx-215" target="vQJH2k5jHzZeBWDmTKOx-206" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1062" y="1963" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-214" value="justinslijkhuis.nl/cms&lt;br&gt;with access token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="vQJH2k5jHzZeBWDmTKOx-213" vertex="1" connectable="0">
+          <mxGeometry x="-0.1626" relative="1" as="geometry">
+            <mxPoint x="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-215" value="Justin (CMS)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="867" y="1933" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-222" style="edgeStyle=isometricEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.4;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.007;entryY=0.917;entryDx=0;entryDy=0;dashed=1;elbow=vertical;endArrow=none;endFill=0;entryPerimeter=0;" parent="1" source="vQJH2k5jHzZeBWDmTKOx-223" target="vQJH2k5jHzZeBWDmTKOx-207" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1247" y="1993" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-223" value="Performs queries and mutations" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;spacingLeft=20;spacingRight=20;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="1260" y="2040" width="187" height="78.5" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-224" value="Same architecture as 2.0, but now it uses GraphQL instead of a Spring Boot REST API. This makes more sense since it is mostly READ related which is the powerful side of GraphQL. The portfolio doesn&#39;t need any input validation and the CMS could have input validation, but that isn&#39;t that necessary since it is just me using it which means the strong point of the REST API isn&#39;t required. GraphQL also still allows input validation if it is really needed.&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Advantages compared to 2.0&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;+ Allows requests to be more optimized by limiting the data retrieved from the database.&lt;/div&gt;&lt;div&gt;+ All needed data can be retrieved using a single request.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Disadvantages compared to 2.0&lt;br&gt;&lt;/b&gt;- GraphQL is often more resouce intensive which would increase costs even more.&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="858" y="1220" width="750" height="238.5" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-225" value="GraphQL" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1458" y="1762.5" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-226" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.007;exitY=0.083;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="vQJH2k5jHzZeBWDmTKOx-207" target="vQJH2k5jHzZeBWDmTKOx-225" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-227" value="query&lt;br&gt;BooksQuery {...}" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="vQJH2k5jHzZeBWDmTKOx-226" vertex="1" connectable="0">
+          <mxGeometry x="-0.2055" y="2" relative="1" as="geometry">
+            <mxPoint x="11" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-229" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.011;exitY=0.917;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="vQJH2k5jHzZeBWDmTKOx-207" target="vQJH2k5jHzZeBWDmTKOx-225" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1307" y="1963" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQJH2k5jHzZeBWDmTKOx-230" value="mutation&lt;br&gt;UpdateBookRanking(5, 2)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="vQJH2k5jHzZeBWDmTKOx-229" vertex="1" connectable="0">
+          <mxGeometry x="-0.1417" y="1" relative="1" as="geometry">
+            <mxPoint x="14" y="-22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JXyWXwS42iE2nbsT7plQ-1" value="Architecture 4.0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="2794" y="10" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JXyWXwS42iE2nbsT7plQ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JXyWXwS42iE2nbsT7plQ-5" target="JXyWXwS42iE2nbsT7plQ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JXyWXwS42iE2nbsT7plQ-4" value="justinslijkhuis.nl/books" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JXyWXwS42iE2nbsT7plQ-3">
+          <mxGeometry x="-0.1626" relative="1" as="geometry">
+            <mxPoint x="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JXyWXwS42iE2nbsT7plQ-5" value="Viewer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="2529" y="463" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JXyWXwS42iE2nbsT7plQ-6" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="2739" y="433" width="245" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="JXyWXwS42iE2nbsT7plQ-7" value="Portfolio Qwik Website" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="JXyWXwS42iE2nbsT7plQ-6">
+          <mxGeometry width="245" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JXyWXwS42iE2nbsT7plQ-8" value="Client-side" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="JXyWXwS42iE2nbsT7plQ-6">
+          <mxGeometry y="30" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JXyWXwS42iE2nbsT7plQ-9" value="Server-side" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="JXyWXwS42iE2nbsT7plQ-6">
+          <mxGeometry x="125" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JXyWXwS42iE2nbsT7plQ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JXyWXwS42iE2nbsT7plQ-9" target="JXyWXwS42iE2nbsT7plQ-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3189" y="493" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JXyWXwS42iE2nbsT7plQ-11" value="query&lt;br&gt;BooksQuery {...}" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JXyWXwS42iE2nbsT7plQ-10">
+          <mxGeometry x="-0.2027" y="2" relative="1" as="geometry">
+            <mxPoint x="1" y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JXyWXwS42iE2nbsT7plQ-12" value="Performs SELECT statements only" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2861.5" y="568" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="JXyWXwS42iE2nbsT7plQ-13" style="edgeStyle=isometricEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.4;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1" source="JXyWXwS42iE2nbsT7plQ-9" target="JXyWXwS42iE2nbsT7plQ-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JXyWXwS42iE2nbsT7plQ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JXyWXwS42iE2nbsT7plQ-17" target="JXyWXwS42iE2nbsT7plQ-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JXyWXwS42iE2nbsT7plQ-16" value="cms.justinslijkhuis.nl&lt;br&gt;with access token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JXyWXwS42iE2nbsT7plQ-15">
+          <mxGeometry x="-0.1626" relative="1" as="geometry">
+            <mxPoint x="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JXyWXwS42iE2nbsT7plQ-17" value="Justin (CMS)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="2529" y="763" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JXyWXwS42iE2nbsT7plQ-18" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="2740" y="733" width="245" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="JXyWXwS42iE2nbsT7plQ-19" value="CMS Qwik Website" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="JXyWXwS42iE2nbsT7plQ-18">
+          <mxGeometry width="245" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JXyWXwS42iE2nbsT7plQ-20" value="Client-side" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="JXyWXwS42iE2nbsT7plQ-18">
+          <mxGeometry y="30" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JXyWXwS42iE2nbsT7plQ-21" value="Server-side" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="JXyWXwS42iE2nbsT7plQ-18">
+          <mxGeometry x="125" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JXyWXwS42iE2nbsT7plQ-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JXyWXwS42iE2nbsT7plQ-21" target="JXyWXwS42iE2nbsT7plQ-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3189" y="793" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JXyWXwS42iE2nbsT7plQ-23" value="mutation&lt;br&gt;UpdateBookRanking(5, 2)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JXyWXwS42iE2nbsT7plQ-22">
+          <mxGeometry x="-0.0951" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JXyWXwS42iE2nbsT7plQ-24" style="edgeStyle=isometricEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.4;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;elbow=vertical;endArrow=none;endFill=0;" edge="1" parent="1" source="JXyWXwS42iE2nbsT7plQ-25" target="JXyWXwS42iE2nbsT7plQ-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JXyWXwS42iE2nbsT7plQ-25" value="Performs SELECT, INSERT, UPDATE and DELETE statements" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;spacingLeft=20;spacingRight=20;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="2821.5" y="863" width="205" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="JXyWXwS42iE2nbsT7plQ-26" value="Combination of architecture 3.3 and 2.1. This splits the website into the portfolio and CMS part. Both websites use the same GraphQL API which uses the PostgreSQL database.&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Advantages compared to 3.3&lt;/b&gt;&lt;/div&gt;&lt;div&gt;+ Improved security like the ability to implement rate limiting, fight against SQL injection, etc.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Advantages compared to 2.1&lt;/b&gt;&lt;/div&gt;&lt;div&gt;+ The portfolio will still works if the CMS crashes.&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Disadvantages&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- The portfolio will break if the GraphQL server breaks.&lt;br&gt;&lt;/span&gt;- GraphQL and module federation introduce more complexity.&lt;/div&gt;&lt;div&gt;- GraphQL and Redis introduce more costs.&lt;/div&gt;&lt;div&gt;- Post part of CMS doesn&#39;t work if the portfolio doesn&#39;t work.&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2520" y="50" width="750" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="JXyWXwS42iE2nbsT7plQ-27" value="Retrieve components" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="JXyWXwS42iE2nbsT7plQ-19" target="JXyWXwS42iE2nbsT7plQ-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2801.5" y="658" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JXyWXwS42iE2nbsT7plQ-34" value="PostgreSQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="3170" y="914.25" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="JXyWXwS42iE2nbsT7plQ-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JXyWXwS42iE2nbsT7plQ-40" target="JXyWXwS42iE2nbsT7plQ-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3174" y="587.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JXyWXwS42iE2nbsT7plQ-36" value="SELECT name, ranking, content&lt;br&gt;FROM Books&lt;br&gt;ORDER BY ranking" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JXyWXwS42iE2nbsT7plQ-35">
+          <mxGeometry x="-0.2027" y="2" relative="1" as="geometry">
+            <mxPoint x="-2" y="-63" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JXyWXwS42iE2nbsT7plQ-37" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;OR&lt;/font&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JXyWXwS42iE2nbsT7plQ-35">
+          <mxGeometry x="-0.138" relative="1" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JXyWXwS42iE2nbsT7plQ-38" value="UPDATE Books&lt;br&gt;SET ranking = ranking + 1&lt;br&gt;WHERE ranking &amp;gt;= 2 AND ranking &amp;lt; 20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JXyWXwS42iE2nbsT7plQ-35">
+          <mxGeometry x="0.1789" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JXyWXwS42iE2nbsT7plQ-39" value="UPDATE Books&lt;br&gt;SET ranking = 2&lt;br&gt;WHERE book_id = 5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JXyWXwS42iE2nbsT7plQ-35">
+          <mxGeometry x="0.6343" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JXyWXwS42iE2nbsT7plQ-40" value="GraphQL" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3130" y="581.75" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JXyWXwS42iE2nbsT7plQ-42" value="Redis" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="3170" y="390" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="JXyWXwS42iE2nbsT7plQ-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JXyWXwS42iE2nbsT7plQ-40" target="JXyWXwS42iE2nbsT7plQ-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JXyWXwS42iE2nbsT7plQ-44" value="MULTI&lt;br&gt;INCR(key)&lt;br&gt;EXPIRE(key, 10)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JXyWXwS42iE2nbsT7plQ-43">
+          <mxGeometry x="0.0261" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
